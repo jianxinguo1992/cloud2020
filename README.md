@@ -5,7 +5,9 @@
 [视频教程](https://www.bilibili.com/video/av93813318)
 
 ## 1. 笔记
-doc目录
+1) doc目录
+
+2) 工具
 
 下载[MindManager 2020](http://dwnld.mindjet.com/stubs/Builds/MindManager2020/20_0_334/64Bit/MindManager%202020.msi)
 
@@ -15,6 +17,10 @@ doc目录
 
 2020: MP20-345-DP56-7778-919A
 ```
+
+3) github下载失败
+
+[gitee导入github仓库](https://gitee.com/projects/import/github/status)
 
 ## 2. 启动前准备
 ### 2.1 数据库
@@ -39,3 +45,10 @@ cloud-provider-payment8004\src\main\resources\application.yml
 
 spring.cloud.zookeeper.connect-string=localhost:2181
 
+## 3 软件
+* Zookeeper
+* consul
+* JMeter
+* RabbitMq
+* [Seata-server](https://github.com/seata/seata/releases/download/v0.9.0/seata-server-0.9.0.zip)
+* zipkin-server
